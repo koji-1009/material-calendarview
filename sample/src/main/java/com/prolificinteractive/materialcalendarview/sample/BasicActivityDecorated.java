@@ -15,8 +15,8 @@ import com.prolificinteractive.materialcalendarview.sample.decorators.HighlightW
 import com.prolificinteractive.materialcalendarview.sample.decorators.MySelectorDecorator;
 import com.prolificinteractive.materialcalendarview.sample.decorators.OneDayDecorator;
 
-import org.threeten.bp.LocalDate;
-import org.threeten.bp.Month;
+import java.time.LocalDate;
+import java.time.Month;
 
 import java.util.ArrayList;
 import java.util.List;

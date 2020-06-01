@@ -23,8 +23,8 @@ import com.prolificinteractive.materialcalendarview.CalendarMode;
 import com.prolificinteractive.materialcalendarview.MaterialCalendarView;
 import com.prolificinteractive.materialcalendarview.OnDateLongClickListener;
 
-import org.threeten.bp.DayOfWeek;
-import org.threeten.bp.format.DateTimeFormatter;
+import java.time.DayOfWeek;
+import java.time.format.DateTimeFormatter;
 
 import java.util.Random;
 

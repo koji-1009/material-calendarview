@@ -15,11 +15,17 @@ android {
     vectorDrawables.useSupportLibrary = true
   }
 
+  defaultConfig {
+    multiDexEnabled true
+  }
+
   lintOptions {
     abortOnError false
   }
 
   compileOptions {
+    coreLibraryDesugaringEnabled true
+
     sourceCompatibility JavaVersion.VERSION_1_8
     targetCompatibility JavaVersion.VERSION_1_8
   }
@@ -30,7 +36,8 @@ version = android.defaultConfig.versionName
 archivesBaseName = 'material-calendarview'
 
 dependencies {
-  implementation rootProject.ext.threeTenAbp
+  coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:$desugar_jdk_libs"
+
   implementation "androidx.core:core:$core"
   implementation "androidx.appcompat:appcompat:$appCompat"
 

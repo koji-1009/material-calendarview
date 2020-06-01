@@ -11,7 +11,7 @@ import com.prolificinteractive.materialcalendarview.MaterialCalendarView;
 import com.prolificinteractive.materialcalendarview.format.ArrayWeekDayFormatter;
 import com.prolificinteractive.materialcalendarview.format.MonthArrayTitleFormatter;
 
-import org.threeten.bp.DayOfWeek;
+import java.time.DayOfWeek;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

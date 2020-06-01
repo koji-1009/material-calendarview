@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.prolificinteractive.materialcalendarview.MaterialCalendarView;
 
-import org.threeten.bp.LocalDate;
+import java.time.LocalDate;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

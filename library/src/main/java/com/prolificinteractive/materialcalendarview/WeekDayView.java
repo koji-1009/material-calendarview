@@ -10,7 +10,7 @@ import androidx.appcompat.widget.AppCompatTextView;
 
 import com.prolificinteractive.materialcalendarview.format.WeekDayFormatter;
 
-import org.threeten.bp.DayOfWeek;
+import java.time.DayOfWeek;
 
 /**
  * Display a day of the week

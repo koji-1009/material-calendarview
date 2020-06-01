@@ -12,7 +12,7 @@ import com.prolificinteractive.materialcalendarview.format.DayFormatter;
 import com.prolificinteractive.materialcalendarview.format.TitleFormatter;
 import com.prolificinteractive.materialcalendarview.format.WeekDayFormatter;
 
-import org.threeten.bp.LocalDate;
+import java.time.LocalDate;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
