@@ -1,10 +1,13 @@
 package com.prolificinteractive.materialcalendarview;
 
 import android.annotation.SuppressLint;
-import android.support.annotation.NonNull;
-import java.util.Collection;
+
+import androidx.annotation.NonNull;
+
 import org.threeten.bp.DayOfWeek;
 import org.threeten.bp.LocalDate;
+
+import java.util.Collection;
 
 /**
  * Display a week of {@linkplain DayView}s and

@@ -1,10 +1,13 @@
 package com.prolificinteractive.materialcalendarview.format;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
+
 import com.prolificinteractive.materialcalendarview.CalendarDay;
+
+import org.threeten.bp.format.DateTimeFormatter;
+
 import java.text.DateFormat;
 import java.util.Locale;
-import org.threeten.bp.format.DateTimeFormatter;
 
 /**
  * Format using a {@linkplain DateFormat} instance.

@@ -30,8 +30,8 @@ dependencies {
   //compile 'com.prolificinteractive:material-calendarview:1.4.3'
 
   implementation rootProject.ext.threeTenAbp
-  implementation rootProject.ext.supportAppCompat
-  implementation rootProject.ext.recyclerviewV7
+  implementation "androidx.appcompat:appcompat:$appCompat"
+  implementation "androidx.recyclerview:recyclerview:$recyclerview"
   implementation rootProject.ext.butterknife
   annotationProcessor rootProject.ext.butterknifeCompiler
 }
